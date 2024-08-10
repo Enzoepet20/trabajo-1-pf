@@ -1,0 +1,26 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+
+.padre {
+    border: 5px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px; 
+    height: 400px;
+    background-color: #ff0a0a;
+    border-radius: 5px;
+}
+
+.hijo {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+}
